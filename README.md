@@ -8,8 +8,8 @@ The code requires `python>=3.7`, as well as `pytorch>=1.9` and `torchvision>=0.1
 1. **Clone this repo.**
 
    ```shell
-   $ git clone https://github.com/DVSOD/DVSOD-Baseline.git
-   $ cd MVNet-main
+   $ git clone https://github.com/jiwei0921/MVSS-Baseline.git
+   $ cd MVSS-Baseline-main/MVNet
    ```
 
 2. **Install dependencies.**
