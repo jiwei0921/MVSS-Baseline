@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
     # Training options
     parser.add_argument('--eval-mode', action='store_true')
-    parser.add_argument('--split-mode', default='test')
+    parser.add_argument('--split-mode', default='val')
     parser.add_argument('--training', action='store_true')
     parser.add_argument('--resume', action='store_true')
     parser.add_argument('--num-epochs', type=int, default=150)
