@@ -77,12 +77,13 @@ Here is the reference for MVSeg dataset color visualization.
 ## Citation
 
 ```
-@inproceedings{ji2023multispectral,
-  title={Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline},
-  author={Ji, Wei and Li, Jingjing and Bian, Cheng and Zhou, Zongwei and Zhao, Jiaying and Yuille, Alan L and Cheng, Li},
-  booktitle={CVPR},
-  pages={1094--1104},
-  year={2023}
+@InProceedings{ji2023mvss,
+      title     = {Multispectral Video Semantic Segmentation: A Benchmark Dataset and Baseline},
+      author    = {Ji, Wei and Li, Jingjing and Bian, Cheng and Zhou, Zongwei and Zhao, Jiaying and Yuille, Alan L. and Cheng, Li},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+      month     = {June},
+      year      = {2023},
+      pages     = {1094-1104}
 }
 ```
 
