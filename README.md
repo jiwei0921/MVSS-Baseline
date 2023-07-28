@@ -26,7 +26,7 @@ The code requires `python>=3.7`, as well as `pytorch>=1.9` and `torchvision>=0.1
 
 ## Getting Started
 
-First download the `MVSeg` [dataset](https://drive.google.com/file/d/1duCXz5aUuvZG7HBnydHLL61k4UBT2Wu_/view?usp=sharing) and pretrained [model ckpt](https://drive.google.com/file/d/1aw2V-krnzVtMEugzd4srXKfUMetzwoeO/view?usp=sharing). Then the model can be used in just a few adaptions to start training:
+First download the `MVSeg` [dataset](https://jiwei0921.github.io/Multispectral-Video-Semantic-Segmentation/resources/dataset.txt) and pretrained [model ckpt](https://drive.google.com/file/d/1aw2V-krnzVtMEugzd4srXKfUMetzwoeO/view?usp=sharing). Then the model can be used in just a few adaptions to start training:
 
 1. Set your MVSeg dataset path in `datasets/mvss_dataset.py` and put the ckpt in file `save/*`.
 2. Perform training from scratch, with ```bash train.sh``` in two stage. First for warm-up, second for MVNet.   
