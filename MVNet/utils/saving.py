@@ -16,7 +16,7 @@ class Saver:
         self.save_dir = args.savedir
         self.epochs_save = args.epochs_save
         if not os.path.exists(self.save_dir):
-            os.makedirs(self.save_dir)
+            os.makedirs(self.save_dir,exist_ok=True)
 
         # Saving arguments
         args_save_path = os.path.join(self.save_dir, "args.txt")
