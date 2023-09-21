@@ -165,7 +165,7 @@ class TrainingLoss(torch.nn.Module):
         losses = []
         softmax_dim = 1
 
-        # win_size = 4, idx_start = 1.
+        # win_size = 4, idx_start = 3.
 
         for t in range(self.idx_start, self.win_size, self.loss_idx_step):
             label_idx = 0 if self.last_frame_loss else t
