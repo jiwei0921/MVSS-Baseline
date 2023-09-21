@@ -273,7 +273,7 @@ class MVNet(nn.Module):
 
 
             # Memorize
-            if self.model_struct == "original":
+            if self.model_struct == "original" and (t != seq_len - 1):
                 _, aux_RGB_o, aux_thermal_o, aux_fusion_o = self.decoder(encoder_output,
                                                                            encoder_output_thermal,
                                                                            encoder_output_fusion, int(h/4), int(w/4))
