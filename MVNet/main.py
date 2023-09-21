@@ -118,7 +118,7 @@ if __name__ == '__main__':
     parser.add_argument('--baseline-mode', action='store_true')
     parser.add_argument('--baseline-path', default="<TO DEFINE>")
 
-    # LMANet related options
+    # MVNet related options
     parser.add_argument('--win-size', type=int, default=-1, help='if not given, mem size + 1')
     parser.add_argument('--model-struct', type=str, default="original")
     parser.add_argument('--align-weights', action='store_true', default=True)
